@@ -30,6 +30,9 @@ div{
     overflow: hidden;
     cursor: pointer;
 }
+div:hover{
+    background-color: #fff;
+}
 i{
     position: absolute;
     top:-50%;
@@ -39,6 +42,11 @@ i{
     color:var(--arrowColor);
     text-shadow: var(--shadoweSpaceX) var(--shadoweSpaceYtop) var(--shadoweBlur) var(--arrowColor), var(--shadoweSpaceX) var(--shadoweSpaceYbottom) var(--shadoweBlur) var(--arrowColor);
     animation: move 1s linear infinite;
+}
+div:hover i{
+    color: var(--bgcBorderColor);
+    text-shadow: var(--shadoweSpaceX) var(--shadoweSpaceYtop) var(--shadoweBlur) var(--bgcBorderColor),
+    var(--shadoweSpaceX) var(--shadoweSpaceYbottom) var(--shadoweBlur) var(--bgcBorderColor);
 }
 @keyframes move{
     100%{
