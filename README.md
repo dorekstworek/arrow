@@ -1,3 +1,3 @@
 # arrow
 # Destiny
-The button can be used to return to the top of the page.
+The button can be used to return to the top/ bottom of the page.
